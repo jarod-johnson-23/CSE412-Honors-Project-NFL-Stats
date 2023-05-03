@@ -1,3 +1,3 @@
-# NPE-Johnson-Case-Honors-Thesis
+# CSE 412 Honors Contract Project
 
-NFL Prediction Engine Github Repository (Johnson &amp; Case Barrett Honors Thesis)
+Display NFL Statistics using Relational Databases
