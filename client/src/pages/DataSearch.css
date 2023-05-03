@@ -1,0 +1,35 @@
+.leaders-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  overflow: auto;
+  white-space: nowrap;
+  margin: 10px;
+}
+
+.leader-card {
+  min-width: 450px;
+  width: 450px;
+  height: fit-content;
+  background-color: #d2cccc;
+  color: #627e8b;
+  border-radius: 6px;
+  box-shadow: 3px 5px 5px #00000032;
+  margin: 25px;
+}
+
+.leader-card > h3 {
+  margin-left: 2.5%;
+}
+
+.horizontal-line {
+  width: 95%;
+  height: 2px;
+  margin-left: 2.5%;
+  border-bottom: 2px solid #627e8b;
+}
+
+.card-results > table {
+  width: 98%;
+  margin: 15px 2.5% 15px 2.5%;
+}
