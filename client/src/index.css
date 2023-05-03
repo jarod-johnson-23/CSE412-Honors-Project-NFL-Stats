@@ -7,3 +7,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #eaedf0;
 }
+
+@font-face {
+  font-family: "Ubuntu Light";
+  src: url("fonts/Ubuntu-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu Bold";
+  src: url("fonts/Ubuntu-Bold.ttf") format("truetype");
+}
+
+p {
+  font-family: Ubuntu Light;
+}
+
+h1 h2 h3 {
+  font-family: Ubuntu Bold;
+}
