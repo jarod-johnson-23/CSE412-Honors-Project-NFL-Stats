@@ -1,35 +1,53 @@
-.leaders-section {
+.search-div {
   display: flex;
   flex-direction: row;
-  justify-content: left;
-  overflow: auto;
-  white-space: nowrap;
-  margin: 10px;
+  margin: 25px;
+  align-items: center;
 }
 
-.leader-card {
-  min-width: 450px;
-  width: 450px;
-  height: fit-content;
-  background-color: #d2cccc;
+.search-box {
+  margin-left: 15px;
+  height: 40px;
+  width: 250px;
+  font-size: 30px;
+}
+
+.default-btn {
+  width: 150px;
+  height: 35px;
+  margin-left: 25px;
+  background-color: #627e8b;
+  border-radius: 8px;
+  border: 2px solid #627e8b;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.default-btn:hover {
+  cursor: pointer;
+  background-color: #fff;
   color: #627e8b;
-  border-radius: 6px;
-  box-shadow: 3px 5px 5px #00000032;
+}
+
+.results-body {
+  max-width: 100%;
+  overflow-x: scroll;
+}
+
+table {
+  border: 2px solid #627e8b;
   margin: 25px;
 }
 
-.leader-card > h3 {
-  margin-left: 2.5%;
+th {
+  border: 2px solid #627e8b;
+  padding: 0px 10px 0px 10px;
 }
 
-.horizontal-line {
-  width: 95%;
-  height: 2px;
-  margin-left: 2.5%;
-  border-bottom: 2px solid #627e8b;
+tr:nth-child(even) {
+  background-color: #fff;
 }
 
-.card-results > table {
-  width: 98%;
-  margin: 15px 2.5% 15px 2.5%;
+tr:hover {
+  background-color: #ffffff88;
 }
